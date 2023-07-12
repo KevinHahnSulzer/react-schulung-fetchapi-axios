@@ -19,4 +19,4 @@ A `DuckContext` that provides a image url state and two methods to load a static
 4. Wrap the `StaticDuckButton` and `DynamicDuckButton` components in the `DuckContext.Provider` component in order to provide the `duckUrl`, `loadStaticDuck`, and `loadDynamicDuck` values to these components.
 5. In `StaticDuckButton.tsx`, create a new button that calls the `loadStaticDuck` method from the DuckContext when clicked.
 6. In `DynamicDuckButton.tsx`, create a new button that calls the `loadDynamicDuck` method from the DuckContext when clicked.
-7. In `DuckWalk.tsx`, use the `useContext` hook from the react library to access the count value from the DuckContext. Render this value as image to the screen.
+7. In `DuckWalk.tsx`, use the `useContext` hook from the react library to access the `duckUrl` value from the DuckContext. Render this value as image to the screen.
